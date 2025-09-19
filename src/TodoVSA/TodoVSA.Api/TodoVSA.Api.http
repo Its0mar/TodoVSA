@@ -1,0 +1,6 @@
+@TodoVSA.Api_HostAddress = http://localhost:5035
+
+GET {{TodoVSA.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
