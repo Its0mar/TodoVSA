@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodoVSA.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d53f9b6559571e750000b8b85415b3ff7cf91972")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodoVSA.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodoVSA.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
