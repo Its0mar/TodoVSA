@@ -1,1 +1,12 @@
-{"Version":1,"Hash":"bMcc0wHij+X8hqKZ7T6IJPGot7PV+uda3x5ACz1Rhs0=","Source":"TodoVSA.Api","BasePath":"_content/TodoVSA.Api","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "bMcc0wHij+X8hqKZ7T6IJPGot7PV+uda3x5ACz1Rhs0=",
+  "Source": "TodoVSA.Api",
+  "BasePath": "_content/TodoVSA.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
