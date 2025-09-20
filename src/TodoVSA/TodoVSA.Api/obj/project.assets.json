@@ -2,6 +2,52 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "Immediate.Apis/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Immediate.Handlers": "3.0.0"
+        },
+        "compile": {
+          "lib/net9.0/Immediate.Apis.Shared.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Immediate.Apis.Shared.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Immediate.Handlers/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Immediate.Handlers.Shared.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Immediate.Handlers.Shared.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Immediate.Validations/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Immediate.Handlers": "3.0.0",
+          "Microsoft.Extensions.Localization.Abstractions": "9.0.7"
+        },
+        "compile": {
+          "lib/net9.0/Immediate.Validations.Shared.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Immediate.Validations.Shared.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/9.0.9": {
         "type": "package",
         "dependencies": {
@@ -30,6 +76,19 @@
         "buildMultiTargeting": {
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
+        }
+      },
+      "Microsoft.Extensions.Localization.Abstractions/9.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.OpenApi/1.6.25": {
@@ -130,6 +189,72 @@
     }
   },
   "libraries": {
+    "Immediate.Apis/3.1.0": {
+      "sha512": "JzJLxdk3ZjnqXGkXhK6gUV2D/NnDUUmmaMcHC5FW3Kq1Dg4rHc4Cl9ZhW8NHKOPknDqywBiHd72+qghYcpAfug==",
+      "type": "package",
+      "path": "immediate.apis/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/roslyn4.8/dotnet/cs/Immediate.Apis.Analyzers.dll",
+        "analyzers/roslyn4.8/dotnet/cs/Immediate.Apis.CodeFixes.dll",
+        "analyzers/roslyn4.8/dotnet/cs/Immediate.Apis.Generators.dll",
+        "analyzers/roslyn4.8/dotnet/cs/Scriban.dll",
+        "immediate.apis.3.1.0.nupkg.sha512",
+        "immediate.apis.nuspec",
+        "lib/net10.0/Immediate.Apis.Shared.dll",
+        "lib/net10.0/Immediate.Apis.Shared.xml",
+        "lib/net8.0/Immediate.Apis.Shared.dll",
+        "lib/net8.0/Immediate.Apis.Shared.xml",
+        "lib/net9.0/Immediate.Apis.Shared.dll",
+        "lib/net9.0/Immediate.Apis.Shared.xml",
+        "readme.md"
+      ]
+    },
+    "Immediate.Handlers/3.0.0": {
+      "sha512": "gkbLVk+26R4LRfmKcF43lCMh6DgRtJ2Ysft0T1uV76pJohnBWWzL7NT6mJJr2BBKSG4pEq3gilAHfILkR+76tw==",
+      "type": "package",
+      "path": "immediate.handlers/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/roslyn4.8/dotnet/cs/Immediate.Handlers.Analyzers.dll",
+        "analyzers/roslyn4.8/dotnet/cs/Immediate.Handlers.CodeFixes.dll",
+        "analyzers/roslyn4.8/dotnet/cs/Immediate.Handlers.Generators.dll",
+        "analyzers/roslyn4.8/dotnet/cs/Scriban.dll",
+        "immediate.handlers.3.0.0.nupkg.sha512",
+        "immediate.handlers.nuspec",
+        "lib/net10.0/Immediate.Handlers.Shared.dll",
+        "lib/net10.0/Immediate.Handlers.Shared.xml",
+        "lib/net8.0/Immediate.Handlers.Shared.dll",
+        "lib/net8.0/Immediate.Handlers.Shared.xml",
+        "lib/net9.0/Immediate.Handlers.Shared.dll",
+        "lib/net9.0/Immediate.Handlers.Shared.xml",
+        "readme.md"
+      ]
+    },
+    "Immediate.Validations/3.1.0": {
+      "sha512": "AV+4IYGk/8rR19o7EXRjjOp/y5JBdS8jh92zC2YIf1etIBiaj9XwFwCIC2x+gX9ioh8AMuwhyiKkLuhezwTHYw==",
+      "type": "package",
+      "path": "immediate.validations/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/roslyn4.8/dotnet/cs/Immediate.Validations.Analyzers.dll",
+        "analyzers/roslyn4.8/dotnet/cs/Immediate.Validations.CodeFixes.dll",
+        "analyzers/roslyn4.8/dotnet/cs/Immediate.Validations.Generators.dll",
+        "analyzers/roslyn4.8/dotnet/cs/Scriban.dll",
+        "immediate.validations.3.1.0.nupkg.sha512",
+        "immediate.validations.nuspec",
+        "lib/net10.0/Immediate.Validations.Shared.dll",
+        "lib/net10.0/Immediate.Validations.Shared.xml",
+        "lib/net8.0/Immediate.Validations.Shared.dll",
+        "lib/net8.0/Immediate.Validations.Shared.xml",
+        "lib/net9.0/Immediate.Validations.Shared.dll",
+        "lib/net9.0/Immediate.Validations.Shared.xml",
+        "readme.md"
+      ]
+    },
     "Microsoft.AspNetCore.OpenApi/9.0.9": {
       "sha512": "3Sina0gS/CTYt9XG6DUFPdXOmJui7e551U0kO2bIiDk3vZ2sctxxenN+cE1a5CrUpjIVZfZr32neWYYRO+Piaw==",
       "type": "package",
@@ -403,6 +528,25 @@
         "tools/netcoreapp2.1/System.Diagnostics.DiagnosticSource.dll"
       ]
     },
+    "Microsoft.Extensions.Localization.Abstractions/9.0.7": {
+      "sha512": "1uUDXR3qm0YgX64P+vC4flePcJaIWzRdsKhWyvuAsHi/nX/8n5MR36bY97JQhy4vCKgAJdBDuaNGZH0kPLS84A==",
+      "type": "package",
+      "path": "microsoft.extensions.localization.abstractions/9.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Localization.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.Localization.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.xml",
+        "microsoft.extensions.localization.abstractions.9.0.7.nupkg.sha512",
+        "microsoft.extensions.localization.abstractions.nuspec"
+      ]
+    },
     "Microsoft.OpenApi/1.6.25": {
       "sha512": "ZahSqNGtNV7N0JBYS/IYXPkLVexL/AZFxo6pqxv6A7Uli7Q7zfitNjkaqIcsV73Ukzxi4IlJdyDgcQiMXiH8cw==",
       "type": "package",
@@ -508,6 +652,9 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Immediate.Apis >= 3.1.0",
+      "Immediate.Handlers >= 3.0.0",
+      "Immediate.Validations >= 3.1.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.9",
       "Scalar.AspNetCore >= 2.8.5",
       "Swashbuckle.AspNetCore >= 9.0.4"
@@ -556,6 +703,18 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+          "Immediate.Apis": {
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
+          "Immediate.Handlers": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          },
+          "Immediate.Validations": {
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[9.0.9, )"

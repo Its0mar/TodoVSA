@@ -8,12 +8,46 @@
     ".NETCoreApp,Version=v9.0": {
       "TodoVSA.Api/1.0.0": {
         "dependencies": {
+          "Immediate.Apis": "3.1.0",
+          "Immediate.Handlers": "3.0.0",
+          "Immediate.Validations": "3.1.0",
           "Microsoft.AspNetCore.OpenApi": "9.0.9",
           "Scalar.AspNetCore": "2.8.5",
           "Swashbuckle.AspNetCore": "9.0.4"
         },
         "runtime": {
           "TodoVSA.Api.dll": {}
+        }
+      },
+      "Immediate.Apis/3.1.0": {
+        "dependencies": {
+          "Immediate.Handlers": "3.0.0"
+        },
+        "runtime": {
+          "lib/net9.0/Immediate.Apis.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Immediate.Handlers/3.0.0": {
+        "runtime": {
+          "lib/net9.0/Immediate.Handlers.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Immediate.Validations/3.1.0": {
+        "dependencies": {
+          "Immediate.Handlers": "3.0.0",
+          "Microsoft.Extensions.Localization.Abstractions": "9.0.7"
+        },
+        "runtime": {
+          "lib/net9.0/Immediate.Validations.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Microsoft.AspNetCore.OpenApi/9.0.9": {
@@ -28,6 +62,14 @@
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/9.0.0": {},
+      "Microsoft.Extensions.Localization.Abstractions/9.0.7": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.725.31702"
+          }
+        }
+      },
       "Microsoft.OpenApi/1.6.25": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -90,6 +132,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Immediate.Apis/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JzJLxdk3ZjnqXGkXhK6gUV2D/NnDUUmmaMcHC5FW3Kq1Dg4rHc4Cl9ZhW8NHKOPknDqywBiHd72+qghYcpAfug==",
+      "path": "immediate.apis/3.1.0",
+      "hashPath": "immediate.apis.3.1.0.nupkg.sha512"
+    },
+    "Immediate.Handlers/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gkbLVk+26R4LRfmKcF43lCMh6DgRtJ2Ysft0T1uV76pJohnBWWzL7NT6mJJr2BBKSG4pEq3gilAHfILkR+76tw==",
+      "path": "immediate.handlers/3.0.0",
+      "hashPath": "immediate.handlers.3.0.0.nupkg.sha512"
+    },
+    "Immediate.Validations/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AV+4IYGk/8rR19o7EXRjjOp/y5JBdS8jh92zC2YIf1etIBiaj9XwFwCIC2x+gX9ioh8AMuwhyiKkLuhezwTHYw==",
+      "path": "immediate.validations/3.1.0",
+      "hashPath": "immediate.validations.3.1.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.OpenApi/9.0.9": {
       "type": "package",
       "serviceable": true,
@@ -103,6 +166,13 @@
       "sha512": "sha512-1Kzzf7pRey40VaUkHN9/uWxrKVkLu2AQjt+GVeeKLLpiEHAJ1xZRsLSh4ZZYEnyS7Kt2OBOPmsXNdU+wbcOl5w==",
       "path": "microsoft.extensions.apidescription.server/9.0.0",
       "hashPath": "microsoft.extensions.apidescription.server.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Localization.Abstractions/9.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1uUDXR3qm0YgX64P+vC4flePcJaIWzRdsKhWyvuAsHi/nX/8n5MR36bY97JQhy4vCKgAJdBDuaNGZH0kPLS84A==",
+      "path": "microsoft.extensions.localization.abstractions/9.0.7",
+      "hashPath": "microsoft.extensions.localization.abstractions.9.0.7.nupkg.sha512"
     },
     "Microsoft.OpenApi/1.6.25": {
       "type": "package",

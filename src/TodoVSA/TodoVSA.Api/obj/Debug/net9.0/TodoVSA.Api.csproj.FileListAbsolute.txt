@@ -36,3 +36,7 @@
 /home/its0mar/Desktop/ToDoListVsa/src/TodoVSA/TodoVSA.Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /home/its0mar/Desktop/ToDoListVsa/src/TodoVSA/TodoVSA.Api/bin/Debug/net9.0/Scalar.AspNetCore.dll
 /home/its0mar/Desktop/ToDoListVsa/src/TodoVSA/TodoVSA.Api/obj/Debug/net9.0/TodoVSA.Api.sourcelink.json
+/home/its0mar/Desktop/ToDoListVsa/src/TodoVSA/TodoVSA.Api/bin/Debug/net9.0/Immediate.Apis.Shared.dll
+/home/its0mar/Desktop/ToDoListVsa/src/TodoVSA/TodoVSA.Api/bin/Debug/net9.0/Immediate.Handlers.Shared.dll
+/home/its0mar/Desktop/ToDoListVsa/src/TodoVSA/TodoVSA.Api/bin/Debug/net9.0/Immediate.Validations.Shared.dll
+/home/its0mar/Desktop/ToDoListVsa/src/TodoVSA/TodoVSA.Api/bin/Debug/net9.0/Microsoft.Extensions.Localization.Abstractions.dll

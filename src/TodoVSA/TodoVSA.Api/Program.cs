@@ -1,11 +1,20 @@
+using Immediate.Handlers.Shared;
+using Immediate.Validations.Shared;
 using Scalar.AspNetCore;
+using TodoVSA.Api;
 using TodoVSA.Api.Features.Todos.Controllers;
+
+[assembly: Behaviors(
+    typeof(ValidationBehavior<,>)
+)]
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddControllers();
+builder.Services.AddTodoVSAApiHandlers();
+builder.Services.AddTodoVSAApiBehaviors();
 
 builder.Services.AddScoped<CreateTodoHandler>();
 builder.Services.AddScoped<DeleteTodoHandler>();
@@ -29,5 +38,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.MapControllers();
+app.MapTodoVSAApiEndpoints();
 
 app.Run();

@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "zDdOe/gOjGA=",
+  "dgSpecHash": "M++cawxArsk=",
   "success": true,
   "projectFilePath": "/home/its0mar/Desktop/ToDoListVsa/src/TodoVSA/TodoVSA.Api/TodoVSA.Api.csproj",
   "expectedPackageFiles": [
+    "/home/its0mar/.nuget/packages/immediate.apis/3.1.0/immediate.apis.3.1.0.nupkg.sha512",
+    "/home/its0mar/.nuget/packages/immediate.handlers/3.0.0/immediate.handlers.3.0.0.nupkg.sha512",
+    "/home/its0mar/.nuget/packages/immediate.validations/3.1.0/immediate.validations.3.1.0.nupkg.sha512",
     "/home/its0mar/.nuget/packages/microsoft.aspnetcore.openapi/9.0.9/microsoft.aspnetcore.openapi.9.0.9.nupkg.sha512",
     "/home/its0mar/.nuget/packages/microsoft.extensions.apidescription.server/9.0.0/microsoft.extensions.apidescription.server.9.0.0.nupkg.sha512",
+    "/home/its0mar/.nuget/packages/microsoft.extensions.localization.abstractions/9.0.7/microsoft.extensions.localization.abstractions.9.0.7.nupkg.sha512",
     "/home/its0mar/.nuget/packages/microsoft.openapi/1.6.25/microsoft.openapi.1.6.25.nupkg.sha512",
     "/home/its0mar/.nuget/packages/scalar.aspnetcore/2.8.5/scalar.aspnetcore.2.8.5.nupkg.sha512",
     "/home/its0mar/.nuget/packages/swashbuckle.aspnetcore/9.0.4/swashbuckle.aspnetcore.9.0.4.nupkg.sha512",
